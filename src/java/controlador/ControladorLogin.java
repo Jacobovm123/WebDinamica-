@@ -134,7 +134,16 @@ public class ControladorLogin extends HttpServlet {
                        response.sendRedirect("MenuAdmin.jsp");
                    }
                    else
-                        if(ab.getCargo().equals("user")){
+                        if(ab.getCargo().equals("estudiante")){
+                
+                            
+                            
+                            
+                            response.sendRedirect("MenuEstudiante.jsp");
+        
+                   }
+    else
+                        if(ab.getCargo().equals("Catedratico")){
                 
                             
                             
@@ -142,7 +151,6 @@ public class ControladorLogin extends HttpServlet {
                             response.sendRedirect("MenuUser.jsp");
         
                    }
-
                         
                    else
                    {

@@ -19,7 +19,7 @@ public class Conexion {
  
 String url="jdbc:oracle:thin:@localhost:1521:XE";
  String usuario="SEMINARIO";
- String clave="root";
+ String clave="Abcd.12345";
   
  public Connection conectar(){
  
